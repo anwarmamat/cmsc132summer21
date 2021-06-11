@@ -1,6 +1,6 @@
 # Project 2: Word Frequency
-## Due Date: Jun 2o, 2020 11:59 PM
-## Assignment Type: Closed [(see policy)](http://www.cs.umd.edu/class/summer2019/cmsc132/openClosedPolicy.shtml)
+## Due Date: Jun 20, 2021 11:59 PM
+## Assignment Type: Closed [(see policy)](http://www.cs.umd.edu/class/summer2021/cmsc132/openClosedPolicy.shtml)
 
 # Overview
 In this assignment, we use a linked list to count the words from a given text file or URL.The link list is maintained in descending order of frequency.
@@ -38,7 +38,7 @@ As mentioned above, there are only four public methods in the Frequency class th
 
 # Requirements/Project Policies
 * You may not add any classes, but feel free to add any instance variables and private methods you understand are necessary.
-* See [Style Guidelines](http://www.cs.umd.edu/class/summer2017/cmsc132/resources/StyleGuidelines.html) for information regarding style.
+* See [Style Guidelines](http://www.cs.umd.edu/class/summer2021/cmsc132/resources/StyleGuidelines.html) for information regarding style.
 * We cannot provide any information regarding release and secret tests. Once your project has been graded, you can see a TA if you would like to find out why you failed a release or secret test.
 
 # Testing
