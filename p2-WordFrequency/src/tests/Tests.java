@@ -104,37 +104,7 @@ public class Tests {
         assertEquals(expected, answer);
         assertTrue(freq.isValid());
 	}
-	
-  //RELEASE TESTS
-	@Test //release-6
-	public void test1() {
-		String answer = WordFrequency.freq("releasedata/release1.txt",10);
-		assertTrue(TestsSupport.isCorrect("releasedata/pubRelease1.txt", answer));
-	}
-
-	@Test //release-6
-	public void test2() {
-		String answer = WordFrequency.freq("releasedata/release2.txt",10);
-		assertTrue(TestsSupport.isCorrect("releasedata/pubRelease2.txt", answer));
-	}
-	@Test //release-6
-	public void test3() {
-		String answer = WordFrequency.freq("releasedata/release3.txt",10);
-		assertTrue(TestsSupport.isCorrect("releasedata/pubRelease3.txt", answer));
-	}
-	@Test //release-6
-	public void test4() {
-		String answer = WordFrequency.freq("releasedata/release4.txt",10);
-		assertTrue(TestsSupport.isCorrect("releasedata/pubRelease4.txt", answer));
-	}
-	@Test //release-6
-	public void test5() {
-		String answer = WordFrequency.freq("releasedata/release5.txt",10);
-		assertTrue(TestsSupport.isCorrect("releasedata/pubRelease5.txt", answer));
-	}
-	
-
-
+    
   public static void main(String[] args){
     Result result = JUnitCore.runClasses(Tests.class);
     for (Failure failure : result.getFailures()) {
