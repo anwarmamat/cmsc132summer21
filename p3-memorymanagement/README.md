@@ -1,5 +1,5 @@
 # Project 3: Memory Management
-## Due Date: (see Gradescope)
+## Due Date: July 1, 2021 11:59 PM
 ## Assignment Type: Closed [(see policy)](http://www.cs.umd.edu/class/summer2019/cmsc132/openClosedPolicy.shtml)
 
 # Overview
