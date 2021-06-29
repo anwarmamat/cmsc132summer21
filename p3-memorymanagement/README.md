@@ -75,7 +75,7 @@ Finally, assuming 7 was freed as above, a request to free the block of size 3 wi
 
 ![after freeing the previously allocated 7 units of memory, then freeing 3 units](./img/after_free_7_then_free_3.png)
 
-If free attempts to de-allocate a block that is not in use (or otherwise freeing isn't possible), return null.
+If free attempts to de-allocate a block that is not in use (or freeing is otherwise impossible), return false with no changes.
 
 # Grading
 * Public Tests (30%)
