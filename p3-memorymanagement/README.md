@@ -51,6 +51,8 @@ If the block of size 11 had instead a size of 7, then under the best fit policy 
 
 Upon allocating a block of memory, the memory field of the block should be setup appropriately. If a block is not in use, the memory field does not need to have an initialized array. The length of the array pointed to by the memory field of a block should be (4 * the size of the block).
 
+If malloc fails (for example, the requested block's size is too large to fit anywhere in memory), return null.
+
 # Free
 Similar to the free function in C, the free method in this project will deallocate previously allocated memory. This involves adding the memory back to the avialable blocks list. When the block to be freed is directly preceded by a free block and/or directly followed by a free block, an aggregate block should be formed whose size is 
 a sum of the the size of the current block, the free preceeding block and/or the free following block. You can add a freed block anywhere within the available blocks list.
@@ -73,7 +75,7 @@ Finally, assuming 7 was freed as above, a request to free the block of size 3 wi
 
 ![after freeing the previously allocated 7 units of memory, then freeing 3 units](./img/after_free_7_then_free_3.png)
 
-
+If free attempts to de-allocate a block that is not in use (or otherwise freeing isn't possible), return null.
 
 # Grading
 * Public Tests (30%)
