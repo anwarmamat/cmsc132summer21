@@ -37,7 +37,7 @@ Notice that the insert and delete methods on `Tree` objects return references to
 
 # Specification
 
-You only need to modify `EmptyTree`, `NonEmptyTree`, `PolymorphicBST`, and `PlaceKeysValuesInArrayLists`. **You may not add any classes**.
+You only need to modify `EmptyTree`, `NonEmptyTree`, and `PlaceKeysValuesInArrayLists`. **You may not add any classes**.
 
 # Implementation Restrictions
 
