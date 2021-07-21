@@ -77,8 +77,8 @@ public class Matrix {
      * the order (this x*m) 
      */
     public Matrix multiply(Matrix m, int threads) {
-		//TODO
-	}
+	//TODO
+    }
     
     /*
      * A method that should take in a matrix and determine if it is equal to 
@@ -86,8 +86,8 @@ public class Matrix {
      */
     @Override
     public boolean equals(Object in) {
-		//TODO
-	}
+	//TODO
+    }
 
     // This is given as potentially useful starting point for testing
     public static void main(String[] args){
@@ -109,13 +109,8 @@ public class Matrix {
         b.set(bin);
         Matrix rem = a.multiply(b, 3);
 
-		/*
         System.out.println(a);
         System.out.println(b);
         System.out.println(rem);
-        */
-
     }
-
 }
-
