@@ -41,19 +41,16 @@ public class Heap<E extends Comparable<E>> {
 	
 	//these next three methods return the index that is the parent
 	//or left/right child of the index. 
-	//--STUDENT
 	private int getParentIdx(int i) {
-		return (i - 1) / 2;
+		//TODO
 	}
 
-	//--STUDENT
 	private int getLeftChildIdx(int i) {
-		return 2 * i + 1;
+		//TODO
 	}
 
-	//--STUDENT
 	private int getRightChildIdx(int i) {
-		return 2 * i + 2;
+		//TODO
 	}
 	
 	//for debugging purposes
