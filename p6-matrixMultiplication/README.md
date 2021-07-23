@@ -1,3 +1,9 @@
+### Clarifications
+
+- (7/23) You are not allowed to create any other class files and are only allowed to modify `Matrix.java`
+- (7/23) There is a typo in the headers for both public `multiply()` methods: "this x\*b" -> "this **means** x\*b"
+- (7/23) The goal is to implement a multiply function that uses multithreading to speed up the process of naively finding the product using a single thread. Feel free to implement this in any way you like as long as it meets the restrictions and your solution uses multithreading. Use threads to split up the multiplication process into smaller chunks that can be handled by multiple threads concurrently.
+
 # Project 6: Matrix Multiplication
 ## Due Date: July 29, 2021 11:59 PM
 ## Assignment Type: Closed [(see policy)](http://www.cs.umd.edu/class/summer2019/cmsc132/openClosedPolicy.shtml)
