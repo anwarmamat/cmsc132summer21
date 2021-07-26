@@ -16,7 +16,7 @@ Matrices _(singluar: matrix)_ are rectangular arrays of numbers (or sometimes sy
 
 Matrices have a lot of uses. They can represent vectors in n-dimensions, define transformations between dimensional spaces, efficiently solve systems of linear equations, describe position as well as orientation in far more compact ways, describe rotations, show sets of probabilities, represent the derivative operation, and much more.
 
-Matrix multiplication is a useful concept in Computer Science. For example, GPUs are essentially powerful parallel matrix multipliers. If you do not know how to multiply matrices https://mathworld.wolfram.com/matrixMultiplication.html may be a useful link for you.
+Matrix multiplication is a useful concept in Computer Science. For example, GPUs are essentially powerful parallel matrix multipliers. If you do not know how to multiply matrices https://mathworld.wolfram.com/MatrixMultiplication.html may be a useful link for you.
 Multiplication of matrices are however simply a series of arithmetic operations which computers are fairly fast at. However, the sheer number of operations means that as matrices get larger and larger, they start to suffer from performance issues. We will multithread the operation to see what kind of speedups are possible for this type of problem.
 
 # Objectives
